@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
-var currentPageNumber = 1
+var currentPageNumber = 3
 lateinit var moviesAdapter: MoviesAdapter
 lateinit var llm: LinearLayoutManager
 override fun onCreate(savedInstanceState: Bundle?) {
